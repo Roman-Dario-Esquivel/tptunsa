@@ -83,7 +83,30 @@ else
   else salida=STR;
 }
 
-struct crear_nodo(int selec){
-  
-}
+struct dataType  crear_nodo(int selec,char**s){
+ struct dataType=malloc(sizeof(struct dataType));
+char** aux;
+  struct dataType.nodeType=selec;
+  if(selec=str){
+    getElem(s,aux);
+    struct union.*dataStr=aux;
+  }
+  else {crear_nodo(,s);
 
+}
+/*
+#define STR 1
+#define SET 2
+#define LIST 3
+
+struct dataType{
+	int nodeType;
+	union{
+		char *dataStr;
+		struct{
+			struct dataType *data;
+			struct dataType *next; 
+		};
+	};
+};
+*/
