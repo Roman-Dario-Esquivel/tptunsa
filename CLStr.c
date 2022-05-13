@@ -3,7 +3,7 @@
 #include <string.h>
 #include <stdio.h>
 
-//quita primer y último caracter de la cadena
+//quita primer y ï¿½ltimo caracter de la cadena
 //asume que inicia y termina con {} o con []
 char* clean(char* s){
 	int i=1;
@@ -72,3 +72,18 @@ void getElem(char**s, char**aux){
 		*s=s_aux;
 	} else *s=NULL;
 }
+
+int dato_conjunto_lista(char* s){
+int salida;
+if(s[0]=='[')
+  salida=LIST;
+else 
+  if(s[0]=='{')
+    salida=SET;
+  else salida=STR;
+}
+
+struct crear_nodo(int selec){
+  
+}
+

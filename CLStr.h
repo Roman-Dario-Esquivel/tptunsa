@@ -18,5 +18,7 @@ struct dataType{
 
 char* clean(char* s);
 void getElem(char**s, char**aux);
+int dato_conjunto_lista(char* st);
+
 
 #endif
